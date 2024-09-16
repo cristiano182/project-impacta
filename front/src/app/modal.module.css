@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(100, 100, 100, 0.3);
+  z-index: 100;
+  position: fixed;
+  margin-top: -4rem;
+}
+
+.modal {
+  width: 340px;
+  min-height: 400px;
+  background-color: white;
+  z-index: 200;
+  position: fixed;
+}
+.modalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  height: 2rem;
+}
+
+.inputModal {
+  margin-top: 2rem;
+  width: 320px;
+  height: 40px;
+  color: black;
+  outline: none;
+  background-color: white;
+  padding-left: 0.5rem;
+}
+
+.modalBody {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.confirmButton:hover {
+  opacity: 0.5;
+}
+
+.confirmButton {
+  margin-left: 1rem;
+  background-color: #0bbc8d;
+  border: none;
+  height: 38px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.modalFooter {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
